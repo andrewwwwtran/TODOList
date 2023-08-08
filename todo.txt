@@ -1,0 +1,36 @@
+To-Do List Web Application
+
+1. Backend - chose Python with Flask
+    - Set up a server to handle http requests
+    - Design a database to store the todo list items
+        - SQLite
+
+2. API Endpoints
+    - Create API endpoints to handle CRUD (Create, Read, Update, Delete) operations for the to list items
+    - ie.
+        GET /api/todos: Get all to-do list items.
+        POST /api/todos: Create a new to-do list item.
+        PUT /api/todos/:id: Update a to-do list item by its ID.
+        DELETE /api/todos/:id: Delete a to-do list item by its ID.
+
+3. Frontend 
+    - Choose frontend technology, ie. HTML, CSS, JavaScript 
+    - Do we want a framework? ie. React, Vue.js, Angular, etc.
+    - Create a simple user friendly interface for users to view, add, update, and delete todo list items.
+
+4. Integration
+    - Connect the frontend and backend by making AJAX requests (using fetch) to interact with API endpoints
+    - Ensure that the frontend communicated with the backend to perform CRUD operations on the todo list items
+
+5. User Experience
+    - Implement features like sorting the todo list items by priority or due date, marking tasks as completed, and filtering tasks by status
+    - Add validation to prevent users from adding empty tasks or invalid data
+
+6. Deployment
+    - Once the application is complete, deploy it on a hosting platform like Heroku, Netlify, or Vercel to make it accessible online
+
+7. MAYBE
+    - User Authentication
+        - signup, login, personalized todo list
+    - local storage to save todo list items on client side, so clients can view list after closing browser
+    
