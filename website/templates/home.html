@@ -1,0 +1,17 @@
+{% extends "template.html" %}
+{% block title %} Home {% endblock %}
+{% block content %}
+<body>
+    <div class="container">
+        <h1 align="center">To-Do List</h1>
+        <div id="tasks">
+            {% for task in tasks %}
+            <div>
+                <input type="checkbox" {% if task.completed %}checked{% endif %}>
+                <span>{{ task.text }}</span>
+              </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+{% endblock %}

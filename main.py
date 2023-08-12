@@ -1,6 +1,7 @@
+from website import create_app
 from flask import Flask, jsonify, request, render_template
 
-app = Flask(__name__)
+app = create_app()
 
 tasks = []
 
